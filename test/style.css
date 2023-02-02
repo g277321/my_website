@@ -123,3 +123,47 @@ h1 {
     right: 0;
     bottom: 0;
 }
+
+.work-experience{
+    padding-top: 40px;
+    background-color: #edf2f4;
+}
+
+
+.work-wrapper {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 950px;
+}
+
+.job-wrapper {
+    display: block;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 935px) {
+    .job-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+        column-gap: 30px;
+    }
+}
+
+h3~p {
+    margin: 0;
+}
+
+@media (min-width: 935px) {
+    .job-description p:first-of-type{
+        margin-top: 0;
+    }
+} 
+
+ol li {
+    margin: 8px 0;
+    padding-left: 15px;
+}
+
+ol li a {
+ columns: blue;
+}
